@@ -51,13 +51,18 @@ body {
 
   
   .container-ga {
+    background-image: url(../img/FondoBotones.svg) ;
+    background-repeat:space;
+    background-size:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
   }
   
   .row-ga {
+    margin-top: 170px;
     display: flex;
   }
   
@@ -71,8 +76,8 @@ body {
   }
   
   .button-ga img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 320px;
   }
   
   .button-ga h3 {
